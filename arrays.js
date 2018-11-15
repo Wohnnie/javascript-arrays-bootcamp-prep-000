@@ -22,7 +22,7 @@ destructivelyAddElementToBeginningOfArray(array, element);
 
 function addElementToEndOfArray(array, element) {
   var array = [1];
-  var array = [...array, "foo"]
+  var array = [...array, 'foo']
   return array
 }
 
@@ -35,3 +35,5 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 
 destructivelyAddElementToEndOfArray(array, element);
+
+
