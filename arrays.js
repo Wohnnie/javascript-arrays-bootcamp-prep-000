@@ -31,12 +31,12 @@ addElementToEndOfArray(array, element);
 function destructivelyAddElementToEndOfArray(array, element){
   var array = [1];
   array.push('foo');
-  return array;
+  return array
 }
 
 destructivelyAddElementToEndOfArray(array, element);
 
 function accessElementInArray(array, element){
-  var array = [1, 2, 3] ]
+  var array = [1, 2, 3];
  return array.splice(2)
 }
